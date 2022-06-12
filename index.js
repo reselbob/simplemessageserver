@@ -19,7 +19,7 @@ const getHTML = () =>{
     const fontSize = 'font-size:40px';
     const fontFamily = 'font-family:helvetica';
 
-    const str = `<html><body><div style="${color};${bgColor};${padding};${fontSize};${height};${fontFamily};">${getMessage()}</div></body></boddy></html>`;
+    const str = `<html><body><div style="${color};${bgColor};${padding};${fontSize};${height};${fontFamily};">${getMessage()}</div></body></html>`;
     return str;
 }
 
